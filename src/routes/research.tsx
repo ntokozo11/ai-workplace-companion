@@ -32,7 +32,7 @@ export const Route = createFileRoute("/research")({
       },
     ],
   }),
-  component: Research;
+  component: Research,
 });
 
 const DEPTHS = ["Quick Overview", "Standard", "Detailed"] as const;
